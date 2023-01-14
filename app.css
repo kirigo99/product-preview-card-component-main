@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: papayawhip;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+#content {
+    background-color: white;
+    display: flex;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 0 1rem;
+    max-width: 600px;
+}
+
+.image {
+    width: 50%;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.details {
+    width: 50%;
+    padding: 2rem;
+}
+
+.details .title {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 1.35rem;
+}
+
+.details .name {
+    margin-bottom: 1rem;
+}
+
+.details .description {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.price {
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+}
+
+.price .new {
+    font-size: 20px;
+    color: green;
+}
+
+.price span {
+    padding-left: 10px;
+    padding-top: 3px;
+}
+
+.old {
+    text-decoration: line-through;
+}
+
+.shop {
+    width: 100%;
+    color: white;
+    border: 1px solid green;
+    background-color: green;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    padding: 15px 35px;
+    /*top and bottom left and right*/
+    text-decoration: none;
+    margin: 25px 10px;
+
+}
+
+.shop:hover {
+    background-color: rgb(79, 155, 36);
+}
+
+@media (max-width: 700px) {
+    #content {
+        flex-direction: column;
+    }
+
+    .image {
+        width: 100%;
+        height: 30%;
+        border-radius: 5px;
+    }
+
+    .image {
+        content: url(/images/image-product-mobile.jpg);
+    }
+
+    .details {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
