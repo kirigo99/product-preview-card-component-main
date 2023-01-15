@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    background-color: rgb(250, 237, 245);
+    background-color: rgb(243, 239, 242);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,6 +20,7 @@ body {
 main {
     background-color: white;
     display: flex;
+    flex-wrap: wrap;
     border: 1px solid white;
     border-radius: 10px;
     margin: 0 1rem;
