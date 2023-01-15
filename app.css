@@ -12,6 +12,7 @@ html {
 body {
     background-color: rgb(250, 237, 245);
     display: flex;
+    flex-wrap:wrap;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
