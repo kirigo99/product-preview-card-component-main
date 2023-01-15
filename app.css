@@ -10,15 +10,14 @@ html {
 }
 
 body {
-    background-color: papayawhip;
+    background-color: rgb(250, 237, 245);
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    width: 100%;
 }
 
-#content {
+main {
     background-color: white;
     display: flex;
     border: 1px solid white;
@@ -44,7 +43,7 @@ body {
 }
 
 .details .title {
-    letter-spacing: 3px;
+    letter-spacing: 0.5rem;
     text-transform: uppercase;
     margin-bottom: 1.35rem;
 }
@@ -54,7 +53,7 @@ body {
 }
 
 .details .description {
-    font-size: 14px;
+    font-size: 1rem;
     line-height: 25px;
 }
 
@@ -65,8 +64,8 @@ body {
 }
 
 .price .new {
-    font-size: 20px;
-    color: green;
+    font-size: 1.9rem;
+    color: rgb(52, 105, 52);
 }
 
 .price span {
@@ -74,15 +73,13 @@ body {
     padding-top: 3px;
 }
 
-.old {
-    text-decoration: line-through;
-}
 
 .shop {
     width: 100%;
     color: white;
     border: 1px solid green;
-    background-color: green;
+    background-color: rgb(52, 105, 52);
+    ;
     border-radius: 8px;
     display: flex;
     justify-content: center;
